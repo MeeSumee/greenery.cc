@@ -1,0 +1,93 @@
+baseURL = 'https://greenery.cc/'
+defaultContentLanguage = 'en'
+theme = 'hugo-coder'
+enableEmoji = true
+
+[pagination]
+pagerSize = 6
+
+[params]
+  author = 'MeeSumee'
+  description = 'An Electrical Engineer who self-hosts using NixOS and somehow still plays Genshin Impact for 6 years.'
+  keywords = 'blog, developer, electrical engineer'
+  avatarURL = 'images/vivian.png'
+  colorScheme = 'auto'
+
+[[params.social]]
+  name = 'Github'
+  icon = 'fa-brands fa-github fa-2x'
+  url = 'https://github.com/MeeSumee'
+[[params.social]]
+  name = 'Reddit'
+  icon = 'fa-brands fa-reddit fa-2x'
+  url = 'https://reddit.com/u/MeeSumee'
+
+[languages.en]
+  title = "MeeSumee's Website"
+  label = 'English'
+  contentDir = 'content/english'
+  locale = 'en-US'
+  weight = 1
+
+[[languages.en.menu.main]]
+  name = 'Docs'
+  url = '/docs/'
+  weight = 1
+[[languages.en.menu.main]]
+  name = 'Posts'
+  url = '/posts/'
+  weight = 2
+[[languages.en.menu.main]]
+  name = 'About'
+  url = '/about'
+  weight = 3
+
+[languages.zh]
+  title = "三角的网站"
+  label = '简体中文'
+  contentDir = 'content/zh'
+  locale = 'zh-CN'
+  weight = 2
+
+[languages.zh.params]
+  author = '三角'
+  description = '一位使用《NixOS》自建服务器的电气工程师，但他也玩《原神》已经六年了！'
+  keywords = '网志，开发者，电气工程师'
+
+[[languages.zh.menu.main]]
+  name = '文档'
+  url = '/docs/'
+  weight = 1
+[[languages.zh.menu.main]]
+  name = '网志'
+  url = '/posts/'
+  weight = 2
+[[languages.zh.menu.main]]
+  name = '关于'
+  url = '/about'
+  weight = 3
+
+[languages.jp]
+  title = "三角のサイト"
+  label = '日本語'
+  contentDir = 'content/jp'
+  locale = 'ja-JP'
+  weight = 3
+
+[languages.jp.params]
+  author = '三角'
+  description = 'NixOSを使用してセルフホスティングを行う電気技師、でも、私は原神を六年間遊びしています。'
+  keywords = 'ブログ、デベロッパー、電気技師'
+
+[[languages.jp.menu.main]]
+  name = 'ドキュメント'
+  url = '/docs/'
+  weight = 1
+[[languages.jp.menu.main]]
+  name = 'ブログ'
+  url = '/posts/'
+  weight = 2
+[[languages.jp.menu.main]]
+  name = '私について'
+  url = '/about'
+  weight = 3
