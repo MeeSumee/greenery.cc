@@ -17,10 +17,6 @@ pagerSize = 6
   name = 'Github'
   icon = 'fa-brands fa-github fa-2x'
   url = 'https://github.com/MeeSumee'
-[[params.social]]
-  name = 'Reddit'
-  icon = 'fa-brands fa-reddit fa-2x'
-  url = 'https://reddit.com/u/MeeSumee'
 
 [languages.en]
   title = "MeeSumee's Website"
